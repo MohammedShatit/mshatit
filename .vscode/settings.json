@@ -1,0 +1,8 @@
+{
+"liveServer.settings.https": {
+    "enable": true, //set it true to enable the feature.
+    "cert": "C:\\Users\\might\\OneDrive\\Desktop\\KukaWebAr\\cert.pem", //full path of the certificate
+    "key": "C:\\Users\\might\\OneDrive\\Desktop\\KukaWebAr\\key.pem", //full path of the private key
+    "passphrase": "12345"
+    }
+}
