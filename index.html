@@ -12,14 +12,15 @@
 </head>
 
 <body>
-    <a-scene embedded arjs="debugUIEnabled: false; patternRatio: 0.75">
+    <!-- <a-scene embedded arjs="debugUIEnabled: false; patternRatio: 0.75"> -->
+        <a-scene embedded arjs>
         <a-marker type="pattern" url="/patterns/pattern-4x4_1000-1.patt">
             <a-entity scale="1 1 1">
                 <a-entity gltf-model="/models/KUKAiisy.gltf" scale="2 2 2" rotation="0 0 0" animation-mixer>
             </a-entity>
         </a-marker>
         <a-entity camera></a-entity>
-        <a-entity gltf-model="/models/KUKAiisy.gltf" scale="1 1 1" rotation="0 0 0" animation-mixer></a-entity>
+        <a-entity gltf-model="/KUKAiisy.gltf" scale="1 1 1" rotation="0 0 0" animation-mixer></a-entity>
     </a-scene>
 </body>
 </html>
