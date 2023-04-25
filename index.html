@@ -12,12 +12,10 @@
 </head>
 
 <body>
-    <!-- <a-scene embedded arjs="debugUIEnabled: false; patternRatio: 0.75"> -->
-    <a-scene embedded arjs>
-        <!-- <a-marker type="pattern" url="/patterns/pattern-4x4_1000-1.patt"> -->
-        <a-marker preset="hiro">
+    <a-scene embedded arjs="debugUIEnabled: false; patternRatio: 0.75">
+        <a-marker type="pattern" url="/patterns/pattern-4x4_1000-1.patt">
             <a-entity scale="1 1 1">
-                <a-entity gltf-model="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Embedded/Duck.gltf" scale="2 2 2" rotation="0 0 0"></a-entity>
+                <a-entity gltf-model="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Embedded/Duck.gltf" scale="0.5 0.5 0.5" rotation="0 0 0"></a-entity>
             </a-entity>
         </a-marker>
         <a-entity camera></a-entity>
